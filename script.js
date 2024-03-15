@@ -6,10 +6,10 @@ function updateTime() {
 
     const [hour, minute, second] = time.split(':');
 
-    document.getElementById('hour').textContent = hour;
-    document.getElementById('minute').textContent = minute;
-    document.getElementById('second').textContent = second;
-}
+    document.getElementById('hora').textContent = hour;
+    document.getElementById('minuto').textContent = minute;
+    document.getElementById('segundo').textContent = second;
+}       
 
 updateTime();
 setInterval(updateTime, 1000);

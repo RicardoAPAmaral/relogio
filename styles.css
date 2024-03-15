@@ -1,6 +1,94 @@
-.clock {
+
+body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('assets/quarto.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+.relogio {
     font-size: 2em;
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
+    background-color:transparent;
+    backdrop-filter: blur(50px);
+    padding: 5px;
 }
+
+.blocoHora {
+    display: inline-block;
+   
+    color:white;
+    
+}
+
+.tempoHora{
+    display:flex;
+    font-size: 0.1em;
+    margin-top: 5px;
+    color:white;
+    position: absolute;
+    left: 17px;
+    top: 62%;
+    
+}
+
+.blocoMinuto {
+    display: inline-block;
+   
+    color:white;
+}
+
+.tempoMinuto{
+    display:flex;
+    font-size: 0.1em;
+    margin-top: 5px;
+    color:white;
+    position: absolute;
+    left: 56px;
+    top: 62%;
+}
+
+.blocoSegundo {
+    display: inline-block;
+   
+    color:white;
+}
+
+.tempoSegundo{
+    display:flex;
+    font-size: 0.1em;
+    margin-top: 5px;
+    color:white;
+    position: absolute;
+    right: 10px;
+    top: 62%;
+}
+#hora{
+color:white;
+background-color: black;
+border-radius: 4px;
+
+
+}
+
+
+#minuto{
+    color:white;
+    background-color: black;
+    border-radius: 4px;
+   
+    }
+
+
+#segundo{
+    color:white;
+    background-color: black;
+    border-radius: 4px;
+    }
